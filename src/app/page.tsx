@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -28,7 +28,6 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
-          logoText="Joule Ventures"
           brandName="Joule Ventures"
           button={{
             text: "Get in Touch",
